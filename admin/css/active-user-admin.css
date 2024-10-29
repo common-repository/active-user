@@ -1,0 +1,74 @@
+.wpau-advert {
+  margin: 20px auto;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 5px 5px 5px lightslategray;
+  box-shadow: 5px 5px 5px lightslategray; }
+  @media only screen and (max-width: 530px) {
+    .wpau-advert {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+  .wpau-advert ul li:before {
+    content: "+";
+    /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: green;
+    /* Or a color you prefer */ }
+  .wpau-advert h3 {
+    margin: 0rem; }
+    @media only screen and (max-width: 530px) {
+      .wpau-advert h3 {
+        text-align: center; } }
+  .wpau-advert .wpau-advert-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media only screen and (max-width: 530px) {
+      .wpau-advert .wpau-advert-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        margin: 0px; } }
+    .wpau-advert .wpau-advert-content img {
+      min-width: 250px;
+      margin: 20px 20px 0px 0px;
+      -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+      flex-grow: 2; }
+      @media only screen and (max-width: 530px) {
+        .wpau-advert .wpau-advert-content img {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center;
+          margin: 20px; } }
+    .wpau-advert .wpau-advert-content .wpau-settings-image {
+      max-width: 410px;
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content; }
+      @media only screen and (max-width: 475px) {
+        .wpau-advert .wpau-advert-content .wpau-settings-image {
+          width: 260px; } }
+    .wpau-advert .wpau-advert-content .wpau-advert-content-main {
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1; }
+
+.wpau-settings-hero {
+  margin: 20px auto;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 5px 5px 5px lightslategray;
+  box-shadow: 5px 5px 5px lightslategray; }

@@ -1,0 +1,76 @@
+.wpau-advert {
+  margin: 20px auto;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 5px lightslategray;
+  // display: flex;
+
+  @media only screen and (max-width : 530px) {
+    flex-direction: column;
+  }
+
+  ul li:before {
+    content: "+"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: green; /* Or a color you prefer */
+  }
+
+  h3 {
+    // order: 2;
+    margin: 0rem;
+
+    @media only screen and (max-width : 530px) {
+      text-align: center;
+    }
+  }
+
+  .wpau-advert-content {
+    display: flex;
+
+    @media only screen and (max-width : 530px) {
+      flex-direction: column;
+      align-self: center;
+      // order: 2;
+      margin: 0px;
+    }
+
+    img {
+      // display: flex;
+      min-width: 250px;
+      // order: 1;
+      margin: 20px 20px 0px 0px;
+      flex-grow: 2;
+
+      @media only screen and (max-width : 530px) {
+        flex-direction: column;
+        align-self: center;
+        margin: 20px;
+      }
+
+    }
+    .wpau-settings-image {
+      max-width: 410px;
+      height: max-content;
+      @media only screen and (max-width : 475px) {
+        width: 260px;
+      }
+    }
+
+    .wpau-advert-content-main {
+      flex-grow: 1;
+    }
+  }
+
+
+
+
+}
+
+.wpau-settings-hero {
+  margin: 20px auto;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 5px lightslategray;
+}
